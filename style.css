@@ -26,7 +26,7 @@ main {
     background-color: hsl(213, 19%, 18%);
     background: linear-gradient(0deg, rgb(27, 34, 43) 50%, hsl(213, 19%, 18%)100%);
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 20px 30px 20px;
     margin: 20px auto;
 }
 
