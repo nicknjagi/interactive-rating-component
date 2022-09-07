@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --background-color:hsl(216, 12%, 8%);
+    --paragraph-color:hsl(217, 12%, 63%);
+    --secondary-color:hsl(25, 97%, 53%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 340px;
+    background-color: hsl(213, 19%, 18%);
+    background: linear-gradient(0deg, rgb(27, 34, 43) 50%, hsl(213, 19%, 18%)100%);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.icon {
+    width: 3rem;
+    padding:16px 14px ;
+    background-color:hsl(214, 21%, 21%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.icon img{
+    width: 15px;   
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0 10px 0;
+}
+
+p {
+    color: var(--paragraph-color);
+}
+
+ul {
+    margin: 16px 0;
+}
+
+li{
+   list-style: none;
+   display: inline;
+   margin-right:10px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+.btn button{
+    color: var(--paragraph-color);
+    background-color:hsl(213, 21%, 18%);
+    width: 3rem;
+    padding: 16px 14px;
+    border-radius: 50%;
+    border: none;
+}
+
+.btn button:hover {
+    font-weight: 500;
+    background-color:var(--secondary-color);  
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn button:focus{
+    color: #fff;
+    font-weight: 500;
+    background-color: var(--paragraph-color);
+}
+
+#submit {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 18px;
+    color: hsl(0, 0%, 100%);
+    background-color: var(--secondary-color);
+    letter-spacing: 2px;
+}
+
+#submit:hover {
+    background-color: #fff;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.thanks-page { 
+    text-align: center;  
+}
+
+.mobile{
+    margin:10px 0 15px 0;
+}
+
+.orange-txt {
+    width: max-content;
+    margin-left: 22% ;
+    color: hsl(25, 97%, 53%);
+    background-color: #2e3945;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+@media (min-width:600px){
+    body {
+        height:100vh;
+    }
+
+    main {
+        width:380px;
+        margin: auto;
+    }
+
+    li {
+        margin-right: 20px;
+    }
+    
+}
