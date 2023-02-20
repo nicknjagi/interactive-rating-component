@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/nicknjagi/interactive-rating-component)
-- Live Site URL: []()
+- Live Site URL: [https://nicknjagi.github.io/interactive-rating-component/](https://nicknjagi.github.io/interactive-rating-component/)
 
 ## My process
 
